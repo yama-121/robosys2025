@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 ikki yamanaka
+
 import sys
    
 ans = 0
