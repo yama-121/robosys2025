@@ -1,5 +1,6 @@
 #!/bin/bash
-#SPDX 
+# SPDX-FileCopyrightText: 2025 ikki yamanaka
+# SPDX-License-Identifier: BSD-3-Clause 
 
 
 ng () {
@@ -8,9 +9,9 @@ ng () {
 }
 
 res=0
-a=上田
-[ "$a" = 神 ] || ng "$LINENO"
 
-[ "$a" = 上田 ] || ng "$LINENO"
+out=$(seq 5 | ./plus)
+[ "${out}" = 15 ] || ng "$LINENO"
 
+[ "${res}" = 0 ] && echo OK
 exit $res
