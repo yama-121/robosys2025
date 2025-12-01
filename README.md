@@ -18,7 +18,7 @@ $./kadai.py
  9465
 
 # テストの結果
-[test](https://github.com/ikki yamanaka/robosys2025/actions/workflows/birthdaytest.yml)
+[test](https://github.com/yama-121/robosys2025/actions/workflows/birthdaytest.yml)
 
 # 必要なソフトウェアバージョンまでしっかりと記入
 Python 3.13.5
