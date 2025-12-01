@@ -20,7 +20,7 @@ $./kadai.py
 # テストの結果
 [test](https://github.com/yama-121/robosys2025/actions/workflows/birthdaytest.yml)
 
-# 必要なソフトウェアバージョンまでしっかりと記入
+# 必要なソフトウェア
 Python 3.13.5
 
 # テスト環境
