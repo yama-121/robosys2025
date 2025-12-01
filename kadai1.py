@@ -6,7 +6,6 @@ import sys
 import datetime
 
 def progress_birthday_date(birthday_date: str):
-
     try:
         birthday = datetime.date.fromisoformat(birthday_date)
     except ValueError:
@@ -21,7 +20,6 @@ def progress_birthday_date(birthday_date: str):
     return difference.days
 
 def progress_birthday():
-
     birthday_date = input("誕生日を「年-月-日」で入力してください (ex: 2005-12-16): ")
 
     try:
