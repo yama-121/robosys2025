@@ -19,5 +19,6 @@ class TestProgressBirthdayDate(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "未来の日付は入力できません"):
             progress_birthday_date("2030-01-01")
 
+
 if __name__ == '__main__':
     unittest.main()
