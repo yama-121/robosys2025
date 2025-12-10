@@ -9,18 +9,18 @@ def progress_birthday_date(birthday_date: str):
     try:
         birthday = datetime.date.fromisoformat(birthday_date)
     except ValueError:
-        raise ValueError("日付の形式が正しくありません。")
+        raise ValueError("error")
 
     today = datetime.date.today()
     
     if birthday > today:
-        raise ValueError("エラー: 未来の日付は入力できません。")
+        raise ValueError("error")
 
     difference = today - birthday
     return difference.days
 
 def progress_birthday():
-    birthday_date = input("誕生日を「年-月-日」で入力してください (ex: 2005-12-16): ")
+    birthday_date = input()
 
     try:
         days_progress = progress_birthday_date(birthday_date)
