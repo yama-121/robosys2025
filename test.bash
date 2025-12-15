@@ -26,3 +26,4 @@ else
     echo "NG: ${NG_COUNT}件の失敗"
     exit 1
 fi
+
