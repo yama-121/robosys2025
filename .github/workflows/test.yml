@@ -26,4 +26,4 @@ jobs:
     - name: Run tests
       run: |
         chmod +x count 
-        ./test.bash~
+        ./test.bash
