@@ -16,9 +16,10 @@
 
 未来の日付を指定することはできません。
 日付の月や日が1桁の場合でも、07のように2桁で入力する必要があります。
-例
+'''例
 '$ echo "2000-01-01" | ./count'
 9475
+'''
 
 # テストの結果
 [test](https://github.com/yama-121/robosys2025/actions/workflows/birthdaytest.yml)
