@@ -25,5 +25,5 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest count
-~
+        chmod +x count 
+        ./test.bash~
