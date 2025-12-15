@@ -3,10 +3,12 @@
 # 経過日数
 入力された日から何日経ったかを出力します。
 
-#インストール
-'$ git clone https://github.com/yama-121/robosys2025.git'
-'$ cd robosys2025'
-'$ chmod +x count'
+# インストール
+'''
+$ git clone https://github.com/yama-121/robosys2025.git
+$ cd robosys2025
+$ chmod +x count
+'''
 
 # 使い方
 このプログラムは、標準入力から日付を受け取り、標準出力に経過日数を返します。
