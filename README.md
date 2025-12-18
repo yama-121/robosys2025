@@ -26,9 +26,9 @@ $ chmod +x count
 ```
 
 # 必要なソフトウェア
--Python 3.13.5
--Ubuntu 22.04.5
--git version 2.34.1
+- Python 3.13.5
+- Ubuntu 22.04.5
+- git version 2.34.1
 
 # 権利関係
 - このソフトウェアパッケージは、3条項BSDライセンスの下，再頒布および使用が許可されます。
