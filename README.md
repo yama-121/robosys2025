@@ -14,6 +14,7 @@ $ chmod +x count
 このプログラムは、標準入力から日付を受け取り、標準出力に経過日数を返します。
 
 入力形式: YYYY-MM-DD形式の日付文字列 (例: 2000-01-01)
+
 出力形式: 経過した日数
 
 未来の日付を指定することはできません。
@@ -24,15 +25,10 @@ $ chmod +x count
 9475
 ```
 
-# テストの結果
-[test](https://github.com/yama-121/robosys2025/actions/workflows/birthdaytest.yml)
-
 # 必要なソフトウェア
-Python 3.13.5
-
-# テスト環境
-Ubuntu 22.04.5
-git version 2.34.1
+-Python 3.13.5
+-Ubuntu 22.04.5
+-git version 2.34.1
 
 # 権利関係
 - このソフトウェアパッケージは、3条項BSDライセンスの下，再頒布および使用が許可されます。
