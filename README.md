@@ -1,4 +1,5 @@
 # robosys2025
+![test](https://github.com/yama-121/robosys2025/actions/workflows/test.yml/badge.svg)
 
 # 経過日数
 入力された日から何日経ったかを出力します。
@@ -19,14 +20,14 @@ $ chmod +x count
 
 未来の日付を指定することはできません。
 日付の月や日が1桁の場合でも、07のように2桁で入力する必要があります。
-```
 例
-'$ echo "2000-01-01" | ./count'
+```
+$ echo "2000-01-01" | ./count
 9475
 ```
 
 # 必要なソフトウェア
-- Python 3.13.5
+- Python 3.9 ~ 3.13
 - Ubuntu 22.04.5
 - git version 2.34.1
 
