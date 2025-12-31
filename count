@@ -12,22 +12,26 @@ def progress_birthday_date(birthday_date: str):
         raise ValueError("error")
 
     today = datetime.date.today()
-    
     if birthday > today:
         raise ValueError("error")
 
-    difference = today - birthday
-    return difference.days
+    return (today - birthday).days
 
 def progress_birthday():
-    birthday_date = input()
-
     try:
-        days_progress = progress_birthday_date(birthday_date)
-        print(f" {days_progress}")
+        input_data = sys.stdin.read().strip()
+        if not input_data:
+            sys.exit(0)
+        days_progress = progress_birthday_date(input_data)
+        print(days_progress)
+        sys.exit(0)
 
     except ValueError as e:
-        print(f" {e}")
+        print(e, file=sys.stderr)
+        sys.exit(1)
+    except Exception as e:
+        print(f"error: {e}", file=sys.stderr)
+        sys.exit(1)
 
 if __name__ == "__main__":
     progress_birthday()
